@@ -1,0 +1,109 @@
+ *{
+    background-color: black;
+}
+.profile {
+    position: fixed;
+    z-index: 100;
+    right: 15px;
+    padding-left: 100%;
+    padding-right: 15px;
+    
+}
+#layout {
+    display: flex;
+    justify-content: flex-end;
+    }
+    #layout span {
+        padding: 2px;
+        border: solid white 1px;
+        color: white;
+        font-size: 15px;
+        margin-top: 7px;
+    } 
+a.navbar-brand {
+   width: 110px;
+    margin: 0;
+    padding: 0;
+}
+.shows{
+    padding-top: 70px;
+}
+.shows h1{
+display: inline-block;
+font-size: 35px;
+margin-left: 20px;
+color: white;
+}
+.shows button {
+    box-sizing: content-box;
+    height: 20px;
+    padding: 5px;
+    line-height: 0;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 0%;
+    }
+    ul.dropdown-menu li a.dropdown-item {
+        color: white;
+    }
+    .whattosee {
+        padding-left: 20px; 
+        padding-top: 30px;
+        padding-bottom: 13px;
+        font-size: 27px;
+        color: white;
+        margin: 0;
+    }
+    span.carousel-control-prev-icon,span.carousel-control-next-icon {
+        display: none;
+    }
+    .carousel-item .col {
+        overflow: hidden;
+        transition: all .3s ease;
+
+    }
+    .carousel-item .col:hover {
+        margin: 13px;
+        transform: scale(1.25);
+        z-index: 5;
+        }
+    .carousel-inner {
+        overflow: visible;
+    }
+    div.card {
+        border: 0;
+    }
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: start !important;
+    }
+    .navbar-nav {
+        font-size: 12px;
+    }
+    #social_links {
+        padding-left: 7em;
+        padding-top: 7em;
+        font-size: 10px;
+        color: gray;
+
+    }
+    .socials img {
+        width: 25px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+    }
+    #footertab td {
+        padding: 2px;
+        padding-right: 15px;
+    }
+    #SC {
+        display: inline-block;
+        padding: 3px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border: solid 1px grey;
+    }
